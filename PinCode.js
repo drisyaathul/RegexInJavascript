@@ -27,3 +27,13 @@ if (check3) {
     console.log("PINCode is Invalid");
 }
 
+//UC4:
+let pinCodeIndia = RegExp('^[0-9]{3}\\s[0-9]{3}$');
+let check4 = pinCodeIndia.test('400 088');
+
+if (check4) {
+    console.log("PINCode is Valid");
+} else {
+    console.log("PINCode is Invalid");
+}
+
