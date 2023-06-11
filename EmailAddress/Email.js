@@ -18,3 +18,13 @@ if (check2) {
 } else {
     console.log("Email is Invalid");
 }
+
+//UC3:Ensure “.” after bridgelabz and validate the mandatory 3rd part i.e. co
+
+let check3 = email.test("abc.xyz@bridgelabz.co.in");
+
+if (check3) {
+    console.log("Email is Valid");
+} else {
+    console.log("Email is Invalid");
+}
