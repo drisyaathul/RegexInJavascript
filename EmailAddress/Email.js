@@ -28,3 +28,13 @@ if (check3) {
 } else {
     console.log("Email is Invalid");
 }
+
+//UC4: Lets handle optional part i.e. xyz
+
+let check4 = email.test("abc.xyz@bridgelabz.co.in");
+
+if (check4) {
+    console.log("Email is Valid");
+} else {
+    console.log("Email is Invalid");
+}
