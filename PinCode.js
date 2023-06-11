@@ -18,4 +18,12 @@ if (check2) {
     console.log("PINCode is Invalid");
 }
 
+//UC3:
+let check3 = pinCode.test('400088B');
+
+if (check3) {
+    console.log("PINCode is Valid");
+} else {
+    console.log("PINCode is Invalid");
+}
 
